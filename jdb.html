@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+ 
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body class="index-page">
+
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Lead-<span>Gen</span></h1>
+        </a>
+  
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Properties</a></li>
+            <li><a href="#">Agents</a></li>
+            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none fas fa-bars"></i>
+        </nav>
+  
+      </div>
+    </header>
+  
+    <main class="main">
+  
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+  
+          <!-- Carousel Item 1 -->
+          <div class="carousel-item active">
+            <img src="Images/Richmond Hill Residence - Michael Muraz.jpeg" alt="">
+            <div class="carousel-container">
+              <div>
+                <p><i class="fas fa-map-marker-alt me-1"></i> Orchard Road, Singapore</p>
+                <h2><span>28A</span> Emerald Hill Residence</h2>
+                <a href="#" class="btn-get-started">
+                  <i class="fas fa-key me-1"></i> rent | $ 8,500 SGD
+                </a>
+              </div>
+            </div>
+          </div><!-- End Carousel Item -->
+      
+          <!-- Carousel Item 2 -->
+          <div class="carousel-item">
+            <img src="Images/download (2).jpeg" alt="">
+            <div class="carousel-container">
+              <div>
+                <p><i class="fas fa-map-marker-alt me-1"></i> Sentosa Cove, Singapore</p>
+                <h2><span>12</span> Oceanfront Villa</h2>
+                <a href="#" class="btn-get-started">
+                  <i class="fas fa-tag me-1"></i> sale | $ 12.8M SGD
+                </a>
+              </div>
+            </div>
+          </div><!-- End Carousel Item -->
+      
+          <!-- Carousel Item 3 -->
+          <div class="carousel-item">
+            <img src="Images/Marina Bay Sands.jpeg" alt="">
+            <div class="carousel-container">
+              <div>
+                <p><i class="fas fa-map-marker-alt me-1"></i> Marina Bay, Singapore</p>
+                <h2><span>01-35</span> The Sail @ Marina</h2>
+                <a href="#" class="btn-get-started">
+                  <i class="fas fa-key me-1"></i> rent | $ 6,200 SGD
+                </a>
+              </div>
+            </div>
+          </div><!-- End Carousel Item -->
+      
+          <!-- Carousel Controls (Prev/Next) -->
+          <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+              <i class="fas fa-chevron-left"></i> <!-- Font Awesome Left Arrow -->
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          
+          <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true">
+              <i class="fas fa-chevron-right"></i> <!-- Font Awesome Right Arrow -->
+            </span>
+            <span class="visually-hidden">Next</span>
+          </a>
+      
+          <ol class="carousel-indicators"></ol>
+        </div>
+  </section><!-- /Hero Section -->
+  
+      <!-- Services Section -->
+      <section id="services" class="services section">
+  
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Services</h2>
+          <p>We provide comprehensive real estate solutions tailored to your needs</p>
+        </div><!-- End Section Title -->
+  
+        <div class="container">
+  
+          <div class="row gy-4">
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item  position-relative">
+                <div class="icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Property Valuation</h3>
+                </a>
+                <p>Get accurate market valuations for your property from our experienced team of real estate professionals.</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fas fa-home"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Home Buying</h3>
+                </a>
+                <p>Let us guide you through the entire home buying process from search to closing.</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fas fa-list-ul"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Property Listing</h3>
+                </a>
+                <p>Maximize your property's exposure with our professional listing services.</p>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fas fa-building"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Rental Management</h3>
+                </a>
+                <p>Comprehensive rental property management services for landlords.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fas fa-chart-pie"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Investment Properties</h3>
+                </a>
+                <p>Expert advice on building your real estate investment portfolio.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="fas fa-comments"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Consultation</h3>
+                </a>
+                <p>Personalized real estate consultation to meet your specific needs.</p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div><!-- End Service Item -->
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /Services Section -->
+  
+      <!-- WhatsApp Contact Section -->
+      <section id="whatsapp-contact" class="whatsapp-contact section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Contact Us via WhatsApp</h2>
+          <p>Get instant assistance from our dedicated agents</p>
+        </div>
+        
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
+              <div class="whatsapp-buttons">
+                <a href="https://wa.me/6581234567" class="btn btn-whatsapp me-3" target="_blank">
+                  <i class="fab fa-whatsapp"></i> Chat with Sales Team
+                </a>
+                <a href="https://wa.me/6587654321" class="btn btn-whatsapp" target="_blank">
+                  <i class="fab fa-whatsapp"></i> Chat with Rental Team
+                </a>
+              </div>
+              <p class="mt-3">Our agents are available 24/7 to assist you with all your real estate needs.</p>
+            </div>
+          </div>
+        </div>
+      </section><!-- /WhatsApp Contact Section -->
+  
+      <!-- Agents Section -->
+      <section id="agents" class="agents section">
+  
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Our Agents</h2>
+          <p>Meet our dedicated team of real estate professionals</p>
+        </div><!-- End Section Title -->
+  
+        <div class="container">
+  
+          <div class="row gy-5">
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="member">
+                <div class="pic"><img src="Images/team-1.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Tan Wei Jie</h4>
+                  <span>Chief Executive Officer</span>
+                  <p>With over 15 years of experience in the Singapore real estate industry, Tan specializes in luxury properties and commercial real estate.</p>
+                  <div class="social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <a href="https://wa.me/6581234567" class="btn btn-whatsapp btn-sm mt-2" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="member">
+                <div class="pic"><img src="Images/team-2.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Nurul Aisyah</h4>
+                  <span>Rent Manager</span>
+                  <p>Aisyah has helped hundreds of clients find their perfect rental homes with her extensive knowledge of Singapore's rental market.</p>
+                  <div class="social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <a href="https://wa.me/6581234568" class="btn btn-whatsapp btn-sm mt-2" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+  
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="member">
+                <div class="pic"><img src="Images/team-3.jpg" class="img-fluid" alt=""></div>
+                <div class="member-info">
+                  <h4>Rajesh Kumar</h4>
+                  <span>Sales Manager</span>
+                  <p>Rajesh is our top-performing sales agent with a proven track record of closing deals quickly and efficiently across Singapore.</p>
+                  <div class="social">
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                  </div>
+                  <a href="https://wa.me/6581234569" class="btn btn-whatsapp btn-sm mt-2" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div><!-- End Team Member -->
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /Agents Section -->
+  
+      <!-- Agent Introductions Section -->
+      <section id="agent-introductions" class="agent-introductions section">
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Meet Our Expert Agents</h2>
+          <p>Our team of professionals is ready to guide you through every step of your real estate journey</p>
+        </div>
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="agent-card">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="Images/team-1.jpg" class="img-fluid rounded-circle" alt="Agent 1">
+                  </div>
+                  <div class="col-md-8">
+                    <h3>Tan Wei Jie</h3>
+                    <p class="text-muted">Chief Executive Officer</p>
+                    <p>With a passion for architecture and design, Tan brings a unique perspective to property valuation and sales strategy in Singapore's competitive market.</p>
+                    <a href="https://wa.me/6581234567" class="btn btn-whatsapp btn-sm" target="_blank">
+                      <i class="fab fa-whatsapp"></i> Contact Tan
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="agent-card">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="Images/team-2.jpg" class="img-fluid rounded-circle" alt="Agent 2">
+                  </div>
+                  <div class="col-md-8">
+                    <h3>Nurul Aisyah</h3>
+                    <p class="text-muted">Rent Manager</p>
+                    <p>Aisyah's deep understanding of tenant needs and landlord requirements makes her the perfect mediator for rental agreements in Singapore's diverse market.</p>
+                    <a href="https://wa.me/6581234568" class="btn btn-whatsapp btn-sm" target="_blank">
+                      <i class="fab fa-whatsapp"></i> Contact Aisyah
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- /Agent Introductions Section -->
+  
+      <!-- Testimonials Section -->
+      <section id="testimonials" class="testimonials section">
+  
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Testimonials</h2>
+          <p>What our clients say about our services</p>
+        </div><!-- End Section Title -->
+  
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+  
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 40
+                  },
+                  "1200": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 1
+                  }
+                }
+              }
+            </script>
+            <div class="swiper-wrapper">
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <p>
+                    The team helped me find my dream condo in Orchard in record time. Their knowledge of Singapore's property market was impressive.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="Images\testimonials\testimonials-1.jpg" class="testimonial-img" alt="">
+                    <h3>Lim Wei Ming</h3>
+                    <h4>Home Buyer</h4>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <p>
+                    As a first-time landlord in Singapore, I was nervous about renting out my HDB flat. The rental management team made the process seamless.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="Images\testimonials\testimonials-2.jpg" class="testimonial-img" alt="">
+                    <h3>Priya Sharma</h3>
+                    <h4>HDB Owner</h4>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <p>
+                    Their investment property advice has helped me build a portfolio of Singapore properties that generates consistent passive income.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="Images\testimonials\testimonials-3.jpg" class="testimonial-img" alt="">
+                    <h3>David Wong</h3>
+                    <h4>Investor</h4>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <p>
+                    The WhatsApp support is fantastic - I got immediate responses to all my questions during my EC purchase process, even on weekends.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="Images\testimonials\testimonials-4.jpg" class="testimonial-img" alt="">
+                    <h3>Amirul Abdullah</h3>
+                    <h4>First-Time Buyer</h4>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+  
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <p>
+                    They sold my landed property in Bukit Timah for 15% above asking price in just 2 weeks. Their marketing strategy is top-notch.
+                  </p>
+                  <div class="profile mt-auto">
+                    <img src="Images\testimonials\testimonials-5.jpg" class="testimonial-img" alt="">
+                    <h3>Chen Li Wei</h3>
+                    <h4>Home Seller</h4>
+                  </div>
+                </div>
+              </div><!-- End testimonial item -->
+  
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+  
+        </div>
+  
+      </section><!-- /Testimonials Section -->
+  
+    </main>
+  
+    <footer id="footer" class="footer light-background">
+  
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-lg-3 col-md-6 d-flex">
+            <i class="fas fa-map-marker-alt icon"></i>
+            <div class="address">
+              <h4>Address</h4>
+              <p>1 Raffles Place</p>
+              <p>Singapore 048616</p>
+              <p></p>
+            </div>
+  
+          </div>
+  
+          <div class="col-lg-3 col-md-6 d-flex">
+            <i class="fas fa-phone-alt icon"></i>
+            <div>
+              <h4>Contact</h4>
+              <p>
+                <strong>Phone:</strong> <span>+65 6123 4567</span><br>
+                <strong>Email:</strong> <span>info@realestate.sg</span><br>
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 d-flex">
+            <i class="far fa-clock icon"></i>
+            <div>
+              <h4>Opening Hours</h4>
+              <p>
+                <strong>Mon-Fri:</strong> <span>9AM - 6PM</span><br>
+                <strong>Sat:</strong> <span>10AM - 4PM</span><br>
+                <strong>Sun:</strong> <span>Closed</span>
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-lg-3 col-md-6">
+            <h4>Follow Us</h4>
+            <div class="social-links d-flex">
+              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="whatsapp-footer mt-3">
+              <a href="https://wa.me/6581234567" class="btn btn-whatsapp btn-sm" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp Support
+              </a>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="container copyright text-center mt-4">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Lead-Gen</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          Designed by <a href="#">Nitish</a>
+        </div>
+      </div>
+  
+    </footer>
+  
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="fas fa-arrow-up"></i></a>
+  
+    <!-- Preloader -->
+    <div id="preloader"></div>
+  
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float">
+      <a href="https://wa.me/6581234567" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+        <span>Chat with Us</span>
+      </a>
+    </div>
+  
+    <style>
+      /* WhatsApp Button Styles */
+      .btn-whatsapp {
+        background-color: #25D366;
+        color: white;
+      }
+      .btn-whatsapp:hover {
+        background-color: #128C7E;
+        color: white;
+      }
+      .whatsapp-float {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 100;
+      }
+      .whatsapp-float a {
+        display: flex;
+        align-items: center;
+        background-color: #25D366;
+        margin-bottom: 32px;
+        margin-right: -17px;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 50px;
+        text-decoration: none;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+      }
+      .whatsapp-float a:hover {
+        background-color: #128C7E;
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+      }
+      .whatsapp-float i {
+        font-size: 24px;
+        margin-right: 8px;
+      }
+      .whatsapp-float span {
+        font-size: 14px;
+        font-weight: 500;
+      }
+      .agent-card {
+        background: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+    </style>
+    </body>
+</html>
